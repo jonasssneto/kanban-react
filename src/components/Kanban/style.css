@@ -1,0 +1,32 @@
+.board {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between; /* Adiciona espaçamento entre as colunas */
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Bordas mais suaves */
+  background-color: #f9f9f9; /* Cor de fundo */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adiciona sombra */
+}
+
+.column h2 {
+  margin-top: 0;
+}
+
+.card {
+  background-color: #ffffff; /* Cor de fundo das cartas */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adiciona sombra */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.card:hover {
+  background-color: #f0f0f0; /* Cor de fundo das cartas ao passar o mouse */
+}
